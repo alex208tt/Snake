@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Snake JS</title>
+</head>
+<body>
+  
+  <!-- Рисуем игровое поле -->
+  <canvas width="400" height="400" id="gameCanvas"></canvas>
+
+  <div id="startMenu">
+            <h1>Змейка</h1>
+            <select id="difficultySelect">
+                <option value="150">Легкий</option>
+                <option value="100">Средний</option>
+                <option value="70">Сложный</option>
+            </select>
+            <button id="startButton" class="menu-button">Начать игру</button>
+            <button id="controlsButton" class="menu-button">Управление</button>
+            <div id="highScoreDisplay" class="menu-button">Рекорд: 0</div>
+        </div>
+    </div>
+
+
+  <script src="scripts/game.js"></script>
+</body>
+</html>
